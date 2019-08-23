@@ -87,3 +87,211 @@
 .color-3 { background: #9BC1BC; }
 .color-4 { background: #5CA4A9; }
 .color-5 { background: #E6EBE0; }
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.helvitica {
+  font-family: Helvetica, Arial, sans-serif
+}
+
+.nova-mono {
+  font-family: 'Nova Mono', monospace;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.big {
+  font-size: 48px;
+}
+
+.fontcard {
+  display: inline-block;
+  margin: 20px 8px 10px 8px;
+	box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.33);
+}
+
+.fontcard .description {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  background: black;
+  text-align: center;
+}
+
+.fontcard .num {
+  display: block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  z-index: 1;
+  background-color: red;
+  color: white;
+  padding-top: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+ }
+
+ .btn {
+  display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  box-shadow: 1px 1px 3px 0px rgba(0, 64, 64, 0.10);
+  background: green;
+  z-index: 1;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  text-align: center;
+ }
+
+ .btn h2 {
+   color: white;
+   font-size: 20px; /* font-size was solution to centering the text */
+ }
+
+
+.fontcard .name {
+  font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: .1;
+  padding: 5 5 0 5;
+  margin: 0;
+}
+
+.fontcard .author {
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 0.0;
+  font-weight: 200;
+  padding: 5px;
+  margin: 0;
+}
+
+.fontcard .style {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  color: black;
+  background: white;  
+  text-align: left;
+}
+
+.inline {
+  display: inline-block;  
+}
+
+.text_styles_card {
+  display: inline-block;
+  vertical-align: top;
+  top: 8px;
+  min-width: 260px;
+  max-width: 400px;
+  margin: 20px 8px 10px 8px;
+  box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.33);
+  background: lightgray;
+}
+
+.text_styles_card .description {
+  /* position: relative; */
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 48px;
+  background: black;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 18px;
+}
+
+
+.text_styles_card .example {
+  display: inline-block;
+  margin: 0;
+  background: white;
+  width: 100%;
+  z-index: 2;
+  
+}
+
+
+.text_styles_card h1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 48px;
+  padding: 8px;
+  /* line-height: 0.1; */
+  background: rgba(255, 255, 255, 1.0);
+}
+
+.text_styles_card h1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 32px;
+  padding: 8px;
+  /* line-height: 0.1; */
+  background: rgba(255, 255, 255, 1.0);
+}
+
+.text_styles_card .ptext {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px;
+  text-align: left;
+  background: rgba(255, 255, 255, 1.0);
+}
+
+.text_styles_card .num_text {
+  font-family: "Nova Mono";
+  font-size: 32px;
+  padding: 8px;
+  text-align: center;
+  background: rgba(255, 255, 255, 1.0);
+}
+
+.text_styles_card .details {
+  /* position: absolute; */
+  display: block;
+
+  /* bottom: 0px; */
+  margin: 0;
+  /* background: lightgray; */
+  width: 100%;
+  
+}
+
+.text_styles_card .details h3 {
+  font-family: sans-serif;
+  line-height: 0.36;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 8px;
+}
